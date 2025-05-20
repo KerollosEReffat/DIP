@@ -81,6 +81,7 @@ python src/main.py            `
 
 After running the script, `images/results/` will contain:
 
+* `0_original'.jpg`
 * `1_brightness.jpg`
 * `2_blur.jpg`
 * `3_denoise.jpg`
