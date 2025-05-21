@@ -68,7 +68,7 @@ python src/main.py `
  - Command Line or any Terminal:
 ```
 python src/main.py \
-  --input path/to/image.jpgلا\
+  --input path/to/image.jpg \
   --outdir images/results \
   --alpha 1.3 --beta 30 \
   --ksize 7 7 \
