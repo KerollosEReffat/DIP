@@ -98,16 +98,17 @@ python src/main.py \
 
 ## Output
 
-After running the script, `images/results/` will contain:
+After running the program, `images/results/` will contain:
+ * `Output folder` contains
+   * `0_original.jpg`
+   * `1_brightness.jpg`
+   * `2_blur.jpg`
+   * `3_denoise.jpg`
+   * `4_edges.jpg`
+   * `features.csv`
+ * `dataset.csv`
 
-* `0_original.jpg`
-* `1_brightness.jpg`
-* `2_blur.jpg`
-* `3_denoise.jpg`
-* `4_edges.jpg`
-* `features.csv`
-
-Each step image is saved in sequence, and the final CSV includes a header row followed by one row per processed image.
+Each step image is saved in sequence, and the final CSV.
 
 ---
 
