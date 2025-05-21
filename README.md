@@ -54,7 +54,7 @@ project-root/
 
 Run the program with arguments:
 
- - Power Shell :
+ - PowerShell:
 ```
 python src/main.py `
   --input path/to/image.jpg `
@@ -65,7 +65,7 @@ python src/main.py `
   --featfile features.csv
 ```
 
- - Command Line or any Terminal :
+ - Command Line or any Terminal:
 ```
 python src/main.py \
   --input path/to/image.jpgلا\
@@ -75,9 +75,11 @@ python src/main.py \
   --low 40 --high 120 \
   --featfile features.csv
 ```
-### Notes :
- - PowerShell (Windows): `Use ``` to break lines.`
- - Command Line (Windows) / Bash (Linux, macOS, Git Bash): `Use \ to break lines.`<br/><br/>
+#### Notes:
+ - PowerShell (Windows):
+   - `Use ``` to break lines.`
+ - Command Line (Windows) / Bash (Linux, macOS, Git Bash):
+   - `Use \ to break lines.`<br/><br/>
 
 | Argument     | Description                                | Default        |
 | ------------ | ------------------------------------------ | -------------- |
