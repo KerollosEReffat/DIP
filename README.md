@@ -82,6 +82,8 @@ python src/main.py \
    - `Use ``` to break lines.`
  - Command Line (Windows) / Bash (Linux, macOS, Git Bash):
    - `Use \ to break lines.`<br/><br/>
+   
+#### All steps were applied sequentially to the image, and a CSV file was saved for the final image.<br/><br/>
 
 | Argument     | Description                                | Default        |
 | ------------ | ------------------------------------------ | -------------- |
@@ -107,8 +109,6 @@ After running the program, `images/results/` will contain:
    * `4_edges.jpg`
    * `features.csv`
  * `dataset.csv`
-
-### All steps were applied sequentially to the image, and a CSV file was saved for the final image.
 
 ---
 
