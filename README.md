@@ -75,10 +75,12 @@ python src/main.py \
   --low 40 --high 120 \
   --featfile features.csv
 ```
-### Notes :<br/>
- - PowerShell (Windows): Use the backtick ``` to break lines
- - Command Line (Windows) / Bash (Linux, macOS, Git Bash): Use \ to break lines<br/>
-
+### Notes :
+<br/>
+ - PowerShell (Windows): Use the backtick **```** to break lines.
+ - Command Line (Windows) / Bash (Linux, macOS, Git Bash): Use **\** to break lines.
+<br/>
+<br/>
 | Argument     | Description                                | Default        |
 | ------------ | ------------------------------------------ | -------------- |
 | `--input`    | Path to the input image                    | **(required)** |
