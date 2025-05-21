@@ -111,7 +111,7 @@ After running the program, `images/results/` will contain:
 
 #### Notes:
 
- - All steps were applied sequentially to the image, and a CSV file was saved for the final image.
+ - **All steps were applied sequentially to the image, and a CSV file was saved for the final image.**
 ---
 
 ## Customization (if you want)
