@@ -108,7 +108,7 @@ After running the program, `images/results/` will contain:
    * `features.csv`
  * `dataset.csv`
 
-Each step image is saved in sequence, and the final CSV.
+### All steps were applied sequentially to the image, and a CSV file was saved for the final image.
 
 ---
 
