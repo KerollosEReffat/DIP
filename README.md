@@ -52,8 +52,9 @@ project-root/
 
 ## Usage
 
-Run the pipeline script with command-line arguments:
+Run the program with arguments:
 
+ - Power Shell
 ```bash
 python src/main.py            `
   --input path/to/image.jpg   `
@@ -61,6 +62,17 @@ python src/main.py            `
   --alpha 1.3 --beta 30       `
   --ksize 7 7                 `
   --low 40 --high 120         `
+  --featfile features.csv
+```
+
+ - Command Line
+```bash
+python src/main.py            \
+  --input path/to/image.jpg   \
+  --outdir images/results     \
+  --alpha 1.3 --beta 30       \
+  --ksize 7 7                 \
+  --low 40 --high 120         \
   --featfile features.csv
 ```
 
