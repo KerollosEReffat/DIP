@@ -112,7 +112,7 @@ Each step image is saved in sequence, and the final CSV.
 
 ---
 
-## Customization
+## Customization (if you want)
 
 * Modify default parameters directly via CLI flags for flexible experimentation.
 * Integrate additional processing functions by adding new modules in `src/` and calling them in the `main()` function.
