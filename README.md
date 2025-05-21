@@ -7,7 +7,7 @@ A Python-based image processing pipeline that performs the following steps on an
 3. **Non-Local Means Denoising**: Applies a denoising algorithm to remove color noise while preserving edges.
 4. **Canny Edge Detection**: Extracts edges from the denoised image using adjustable thresholds.
 5. **Feature Extraction**: Computes a color histogram for each channel and concatenates them into a feature vector.
-6. **dataset building**: Build dataset file contains all features from all input images.
+6. **Dataset building**: Build dataset file contains all features from all input images.
 
 ---
 
