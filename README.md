@@ -14,13 +14,15 @@ A Python-based image processing pipeline that performs the following steps on an
 
 ```
 project-root/
-├── src/
-│   ├── image_pipeline.py   # core processing functions
-│   ├── utils.py            # file ops and helpers
-│   └── main.py             # CLI entry point
-├── images/
+├── src/                           # The folder contains all the code files.
+│   ├── image_pipeline.py          # core processing functions
+│   ├── utils.py                   # file ops and helpers
+│   └── main.py                    # CLI entry point
+├── images/                        # The folder contains all images (Sample input image, Output images)
 │   ├── input.jpg                  # Sample input image
-│   └── results/                   # Output images and feature CSV
+│   └── results/                   # The results folders contain dataset file
+│       ├── <Output folders>/      # Any number of Output folders contain images and CSV
+│       └── dataset.csv            # dataset file contains all features from all input images
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Project overview and usage (this file)
 ```
@@ -55,25 +57,25 @@ project-root/
 Run the program with arguments:
 
  - PowerShell:
-```
+```bash
 python src/main.py `
   --input path/to/image.jpg `
-  --outdir images/results `
   --alpha 1.3 --beta 30 `
   --ksize 7 7 `
   --low 40 --high 120 `
-  --featfile features.csv
+  --featfile features.csv `
+  --normalize
 ```
 
  - Command Line or any Terminal:
-```
+```bash
 python src/main.py \
   --input path/to/image.jpg \
-  --outdir images/results \
   --alpha 1.3 --beta 30 \
   --ksize 7 7 \
   --low 40 --high 120 \
-  --featfile features.csv
+  --featfile features.csv \
+  --normalize
 ```
 #### Notes:
  - PowerShell (Windows):
@@ -84,13 +86,13 @@ python src/main.py \
 | Argument     | Description                                | Default        |
 | ------------ | ------------------------------------------ | -------------- |
 | `--input`    | Path to the input image                    | **(required)** |
-| `--outdir`   | Directory to save processed images and CSV | `results`      |
 | `--alpha`    | Contrast adjustment factor                 | `1.2`          |
 | `--beta`     | Brightness offset                          | `20`           |
 | `--ksize`    | Gaussian blur kernel size (width height)   | `5 5`          |
 | `--low`      | Canny edge detection low threshold         | `50`           |
 | `--high`     | Canny edge detection high threshold        | `150`          |
 | `--featfile` | CSV file name to save feature vectors      | `features.csv` |
+| `--normalize`| Apply L2 normalization to feature vectors  | `False`        |
 
 ---
 
