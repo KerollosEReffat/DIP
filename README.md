@@ -54,27 +54,30 @@ project-root/
 
 Run the program with arguments:
 
- - Power Shell
-```bash
-python src/main.py            `
-  --input path/to/image.jpg   `
-  --outdir images/results     `
-  --alpha 1.3 --beta 30       `
-  --ksize 7 7                 `
-  --low 40 --high 120         `
+ - Power Shell :
+```
+python src/main.py `
+  --input path/to/image.jpg `
+  --outdir images/results `
+  --alpha 1.3 --beta 30 `
+  --ksize 7 7 `
+  --low 40 --high 120 `
   --featfile features.csv
 ```
 
- - Command Line
-```bash
-python src/main.py            \
-  --input path/to/image.jpg   \
-  --outdir images/results     \
-  --alpha 1.3 --beta 30       \
-  --ksize 7 7                 \
-  --low 40 --high 120         \
+ - Command Line or any Terminal :
+```
+python src/main.py \
+  --input path/to/image.jpgلا\
+  --outdir images/results \
+  --alpha 1.3 --beta 30 \
+  --ksize 7 7 \
+  --low 40 --high 120 \
   --featfile features.csv
 ```
+### Notes :<br/>
+ - PowerShell (Windows): Use the backtick ``` to break lines
+ - Command Line (Windows) / Bash (Linux, macOS, Git Bash): Use \ to break lines<br/>
 
 | Argument     | Description                                | Default        |
 | ------------ | ------------------------------------------ | -------------- |
